@@ -9,6 +9,6 @@ class ResultActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_result)
 
-        val id = intent.getStringExtra("ID")
+        val id = intent.getAStringExtra("ID")
     }
 }
