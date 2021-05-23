@@ -28,6 +28,16 @@ android {
     viewBinding {
         enabled = true
     }
+
+    flavorDimensions "default"
+
+    productFlavors {
+        prod {
+        }
+
+        stag {
+        }
+    }
 }
 
 dependencies {
